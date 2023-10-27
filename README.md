@@ -14,7 +14,7 @@ To use this tool, follow these steps :
 - [OPTIONAL] Setup Python Virtual Environment :
   - Run `python3 -m venv .venv` to create the virtual environment
   - Run `source ./.venv/bin/activate` to activate the virtual environment
-- Install dependencies : run `python3 -m pip install -r requirements.txt`
+- Install dependencies : run `python3 -m pip install getch`
 - All done ! Run `./writetest.py` to run !
 
 ### Run

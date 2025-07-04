@@ -125,13 +125,13 @@ def build_parser():
     )
     parser.add_argument(
         "-n", "--number",
-        help="The amount of word to ask (default 1)",
+        help="The amount of word to ask",
         type=int,
         default=30
     )
     parser.add_argument(
         "-p", "--penalty",
-        help="The penalty value (the bigger it is, the more it will affect when missing a word. It will also affect more smaller words. Default 1.0)",
+        help="The penalty value (the bigger it is, the more it will affect when missing a word. It will also affect more smaller words)",
         type=float,
         default=1.0
     )
